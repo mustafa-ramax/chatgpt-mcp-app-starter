@@ -8,6 +8,20 @@ Build a custom ChatGPT plugin using the [Model Context Protocol (MCP)](https://m
 
 > **This is a community starter template, not an official OpenAI product.** The example is intentionally tiny and read-only. ChatGPT surfaces and installation controls depend on the host and account. No platform-wide compatibility or approval is guaranteed.
 
+## See it in ChatGPT
+
+Preview the three ways a custom **ChatGPT MCP App** can appear in a compatible ChatGPT client. Select any image to view it at full size.
+
+### Left-sidebar app (`global` entrypoint)
+
+[![ChatGPT MCP App Starter fullscreen left-sidebar app preview in the ChatGPT desktop interface](docs/screenshots/chatgpt-sidebar-app.png)](docs/screenshots/chatgpt-sidebar-app.png)
+
+| Conversation side panel (`thread`) | Inline MCP App widget |
+| :---: | :---: |
+| [![ChatGPT MCP App Starter Hello World shown beside a conversation in a right-side panel](docs/screenshots/chatgpt-conversation-panel.png)](docs/screenshots/chatgpt-conversation-panel.png) | [![ChatGPT MCP App Starter Hello World rendered as an inline widget inside a ChatGPT conversation](docs/screenshots/chatgpt-inline-widget.png)](docs/screenshots/chatgpt-inline-widget.png) |
+
+*Images are AI-enhanced illustrative previews adapted from a working MCP Apps integration. Some styling and interface elements were changed for presentation; this starter currently ships a simpler, static Hello World UI. Appearance and entrypoint support depend on the ChatGPT client.*
+
 ## What this ChatGPT MCP starter supports
 
 | Surface | What users can do | How it works |
@@ -28,7 +42,7 @@ One read-only tool, one HTML resource, one `/api/mcp` endpoint. No database, acc
 
 ## Quick start: use this GitHub template
 
-1. Select **Use this template → Create a new repository** on GitHub (once this repo has the Template setting enabled).
+1. Select **Use this template → Create a new repository** if the GitHub template button is available. Otherwise, fork or clone this repository to start your own project.
 2. Clone your new repository and install Node.js 20+.
 3. Run:
 
@@ -84,6 +98,7 @@ docs/
   HOW_IT_WORKS.md       # MCP Apps, sidebar, conversation panel architecture
   DEPLOYMENT.md         # Hosting and custom plugin setup notes
   TROUBLESHOOTING.md    # Debugging connection and UI visibility
+  screenshots/          # Sidebar, conversation panel, and inline widget previews
 CONTRIBUTING.md
 LICENSE
 .github/workflows/ci.yml # GitHub Actions build and TypeScript checks
