@@ -1,5 +1,7 @@
 # ChatGPT MCP App Starter
 
+[![Build and typecheck](https://github.com/mustafa-ramax/chatgpt-mcp-app-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/mustafa-ramax/chatgpt-mcp-app-starter/actions/workflows/ci.yml) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **A minimal TypeScript + Next.js starter template for building ChatGPT MCP Apps, sidebar plugins, conversation side panels and inline widgets.**
 
 Build a custom ChatGPT plugin using the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/), [MCP Apps](https://modelcontextprotocol.io/docs/extensions/apps), and [OpenAI Plugin Extensions](https://developers.openai.com/plugins/build/extensions). Start with one working Hello World tool and UI resource, then replace them with your own app.
@@ -84,6 +86,7 @@ docs/
   TROUBLESHOOTING.md    # Debugging connection and UI visibility
 CONTRIBUTING.md
 LICENSE
+.github/workflows/ci.yml # GitHub Actions build and TypeScript checks
 README.md
 package.json
 tsconfig.json
